@@ -6,6 +6,9 @@ h1{
   font-size: 60px;
   color: red;
 }
+#imgMarvel{
+  height: 100px;
+}
 p{
   padding: 20px;
 }
