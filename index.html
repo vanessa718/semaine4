@@ -7,17 +7,23 @@
 	<title>exSemaine4</title>
 	<!--link rel="stylesheet" type="text/css" src="./node_modules/bootstrap/dist/css/bootstrap.min.css"-->
 </head>
- <body>
+<body>
+	<div id="imgMarvel">
+	</div>
 	<h1>Marvel API</h1>
 
 	<div id="results">
-	  <p>Just testing out the Marvel API pulling some comics. For more information on the API go to <a href="https://developer.marvel.com">developer.marvel.com</a></p>
+		<p>Just testing out the Marvel API pulling some comics. For more information on the API go to <a href="https://developer.marvel.com">developer.marvel.com</a></p>
 	</div>
 
-	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<!-- indispensable pour Mustache-->
+	<div id="target"></div>
+	<!--=================================-->
+
 	<script type="text/javascript" src="./node_modules/crypto-js/crypto-js.js"></script>
 	<script type="text/javascript" src="./node_modules/js-md5/build/md5.min.js"></script>
- 	<script src="./node_modules/mustache/mustache.min.js"></script>
- 	<script src="./js/app.js"></script>
- </body>
+	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./node_modules/mustache/mustache.min.js"></script>
+	<script src="./js/app.js"></script>
+</body>
 </html>
