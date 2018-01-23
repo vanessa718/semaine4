@@ -1,9 +1,21 @@
 {{#results}}
 	<div>
 		{{title}}
-		{{characters}}
-		{{creators}}
-		{{series}}
+		{{#characters.items}}
+			{{name}}
+		{{/characters.items}}
+		{{#collection}}
+			{{name}}
+		{{/collection}}
+		{{#creators.items}}
+			{{name}}
+		{{/creators.items}}
+		{{#series.items}}
+			{{name}}
+		{{/series.items}}
+		{{#stories.items}}
+			{{name}}
+		{{/stories.items}}
 
 	</div>
 
