@@ -1,0 +1,10 @@
+{{#results}}
+	<div>
+		{{title}}
+		{{characters}}
+		{{creators}}
+		{{series}}
+
+	</div>
+
+{{/results}}
